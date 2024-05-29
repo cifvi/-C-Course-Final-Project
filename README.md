@@ -1,4 +1,4 @@
-# -C-Course-Final-Project
+# Post-Office-System
 
 Description: The program operates as a “mail system” where one can send private letters between individuals, letters with tracking that allow one to see at which station the letter is located, and pay fines. In the MenuManager department, there are two containers: 1. Customers, 2. Employees. There is an initial login menu where one can identify as a customer or an employee, and accordingly, a customized menu with different accesses is opened. Initially, details about customers and employees are “pulled” from a text file, each having containers of documents (Document*). In the system, an employee can 1. Print a list of customers. 2. Print a list of employees. 3. Add a fine to a customer. 4. Delete a customer. 5. Add a customer. 6. Add employees. A customer can 1. Send a letter (regular/tracked) 2. Pay a fine. At the end, all data are recorded to a text file so that in the next run of the program, it will be possible to continue from the same point.
 
