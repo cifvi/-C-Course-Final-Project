@@ -1,0 +1,10 @@
+﻿  Document.cpp
+  main.cpp
+C:\Users\Hp\source\repos\OOP_FINAL_PROJECT\OOP_FINAL_PROJECT\date.h(21,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Hp\source\repos\OOP_FINAL_PROJECT\OOP_FINAL_PROJECT\date.h(22,52): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Hp\source\repos\OOP_FINAL_PROJECT\OOP_FINAL_PROJECT\date.h(23,42): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Hp\source\repos\OOP_FINAL_PROJECT\OOP_FINAL_PROJECT\TrackedLetter.h(17,42): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Hp\source\repos\OOP_FINAL_PROJECT\OOP_FINAL_PROJECT\TrackedLetter.h(20,52): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Hp\source\repos\OOP_FINAL_PROJECT\OOP_FINAL_PROJECT\main.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  OOP_FINAL_PROJECT.vcxproj -> C:\Users\Hp\source\repos\OOP_FINAL_PROJECT\Debug\OOP_FINAL_PROJECT.exe

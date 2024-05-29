@@ -1,0 +1,40 @@
+
+class Person- <5> in system
+Id First Name Last Name Document amount Birth date:
+12345 Eden Anto 1 (19 7 1997)
+33333 Dor Agabababa 0 (4 4 2010)
+54321 Matan Levy 1 (6 4 1997)
+11111 Ben Cohen 2 (4 10 1996)
+55555 Omer Inbar 3 (20 4 1998)
+
+class Worker- <5> in system
+Id, First Name, Last Name, Document amount, Birth date, Salary:
+12345 Eden Anto 1 (19 7 1997) 7500
+33333 Dor Agabababa 0 (4 4 2010) 7000
+54321 Matan Levy 1 (6 4 1997) 23000
+11111 Ben Cohen 2 (4 10 1996) 123000
+55555 Omer Inbar 3 (20 4 1998) 1200
+
+class Fine- <5> in system
+RecipientId, Id number, Name, Words count Data, Price, Payment day, Police station name, Phone number:
+33333 10001 Fine 2 Bad Parking, 500 (28 2 2020) Yokneam 0545423746
+12345 10002 Fine 1 Smoke, 750(28 2 2020) Netanya 0543455937
+33333 10003 Fine 1 Phone, 1000 (28 2 2020) Ruppin 0542373781
+55555 10004 Fine 2 Bad Parking, 500 (28 2 2020) Netanya 0543455937
+11111 10005 Fine 1 Smoke, 750 (28 2 2020) Yokneam 0545423746
+
+class Letter- <5> in system
+RecipientId, Id number, Name, Words count, Data, SenderId:
+54321 10006 LoveLetter 3 LoveYou, 12345
+55555 10007 TestLetter 3 hello, 55555
+54321 10008 LoveLetter 5 edenking, 55555
+12345 10009 NoSubject 5 edenking, 33333
+12345 10010 LoveLetter  5 edenking, 11111
+
+class TrackedLetter- <5> in system
+RecipientId Id number Name Wordscount Data SenderId Isdeliverd? TrackingNumber Last location:
+33333 10011 Hey 1 Empty, 12345 0 55555 Ruppin.
+54321 10012 Hello 5 Gift For You, 12345 0 55556 Netanya.
+55555 10013 NiceDay 3 Empty, 12345 1 55557 Ruppin.
+11111 10014 GoodYear 2 Gift For You, 12345 0 55558 No tracking info.
+11111 10015 ThankYou 7 Empty, 12345 1 55559 Netanya.
